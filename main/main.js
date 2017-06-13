@@ -16,9 +16,9 @@ module.exports = function main(email, suffixes) {
   {
     if (fix==suffixes[i])
     {
-      console.log("合法");
+      console.log(true);
       return;
     }
   }
-  console.log("非法地址");
+  console.log(false);
 };
