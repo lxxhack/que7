@@ -16,9 +16,8 @@ module.exports = function main(email, suffixes) {
   {
     if (fix==suffixes[i])
     {
-      console.log(true);
-      return;
+      return true;
     }
   }
-  console.log(false);
+  return false;
 };
