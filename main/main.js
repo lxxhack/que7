@@ -8,7 +8,7 @@ module.exports = function main(email, suffixes) {
     {
         fix+=email.charAt(j);
     }
-  }
+  }console.log(fix);
   for (i=0;i<suffixes.length;i++)
   {
     if (fix==suffixes[i])
